@@ -1,0 +1,366 @@
+*{
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+    margin:0px;
+    background-color: rgb(242, 242,250);
+}
+
+
+.msg-log{
+    width:100%;
+    color:blue;
+    text-align: center;
+}
+
+
+.dashboard{
+    width:18%;
+    height:100%;
+    position: fixed;top:0;
+    background: rgb(0,0,50);
+}
+
+
+.dashboard img{
+    margin:15px;
+    width:150px;
+    height:100px;
+}
+
+
+.dashboard h1{
+    padding:10px;
+    color:rgb(164, 33, 33); 
+}
+
+#peon{
+    display: none;
+}
+
+#losec{
+    display: none;
+}
+
+.dash-b{
+    border:0px solid green;
+    margin-top:1px;
+    margin-bottom: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    width:100%;
+    float: left;
+}
+
+
+.dash-b a{
+    text-decoration: none;
+    color:rgb(164, 33, 33); 
+    width:100%;
+    float: left;
+    padding:18px;
+}
+
+
+.dash-b a:hover{
+    background:rgba(0, 50, 100,0.6);
+    color:whitesmoke;
+}
+
+.dash-b a:focus:active{
+    background:rgba(0, 50, 100,0.6);
+    color:whitesmoke;
+}
+
+.dash-b button{
+    background:none;
+    outline:none;
+    border:0px solid green;
+    font-size: 16px;
+    color:rgb(164, 33, 33); 
+    padding:18px;
+    float: left;
+    width:100%;
+    text-align: left;
+}
+
+.dash-b button:hover{
+    color:whitesmoke;
+    background:rgba(0, 50, 100,0.6);
+}
+
+.main-div-container{
+    width:80%;
+    margin-left:20%;
+    padding:20px;
+    border:0px solid green;
+    height:auto;
+    animation:nod-load 500ms ease-in 200ms;    
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+
+@keyframes nod-load{
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    
+    100%{
+        transform: translateY(0pX);
+        opacity: 1;
+    }
+}
+
+
+.sec-div-container{
+    border-radius:20px;
+    background: rgb(0,0,50);
+    padding:20px;
+    color:rgb(164, 33, 33); 
+    font-weight: bold;
+    margin-top:20px;
+}
+
+
+.fir-div-container h1{
+    color:rgb(164, 33, 33); 
+}
+
+.fir-div-container table{
+    margin:10px;
+    border:0px solid green;
+}
+
+.fir-div-container table tr td{
+    padding:30px;
+    margin:10px;
+    width:50%;
+}
+
+.fir-div-container table tr td:hover{
+    box-shadow: 0px 0px 10px 0px rgb(149, 160, 189);
+    border-radius: 10px;
+}
+
+.fir-div-container table tr td input{
+    float:left;
+    width:90%;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.fir-div-container table .cat-typ {
+    display: none;
+}
+
+.fir-div-container table tr td select{
+    float:left;
+    width:90%;
+    padding:10px;
+    border-radius: 10px;
+}
+
+
+.fir-div-container table tr td input:focus{
+    outline:none;
+}
+
+.fir-div-container table tr td select:focus{
+    outline:none;
+}
+
+
+.fir-div-container span{
+    width:100%;
+    float:left;
+    padding:5px;
+}
+
+.txt-container{
+    overflow: auto;
+    margin:10px;
+    border-radius: 5px;
+}
+
+
+
+.att-sec table{
+    width:100%;
+    text-align: center;
+}
+
+.att-sec table tr:nth-child(even){
+    background-color: whitesmoke;
+}
+
+
+.att-sec table tr:nth-child(odd){
+    background-color: rgb(165, 159, 159);
+}
+
+.att-sec table tr td {
+    padding:10px;
+    border-radius: 5px;
+}
+
+.att-sec table tr td button{
+    padding:20px;
+    width:60%;
+    border-radius: 10px;
+    background:rgb(0,0,50);
+    border:2px solid rgb(0,0,50);
+    color:whitesmoke;
+}
+
+.att-sec table tr td button:hover{
+    background:rgba(0,0,50,0.6);
+    border:2px solid rgba(0,0,50,0.6);
+}
+
+#c-att-d  td{
+    background:rgb(0,0,50);
+    padding:30px;
+    color: white;
+}
+
+.con-btn-div{
+    width:100%;
+    
+}
+
+.con-btn{
+    padding:20px;
+    border-radius:10px;
+    width:20%;
+    background:rgba(0,0,100,0.4);
+    border:2px solid rgba(0,0,100,0.4);
+    color:whitesmoke;
+    cursor: pointer;
+}
+
+.con-btn:hover{
+    background:rgba(0,0,100,0.6);
+    border:2px solid rgba(0,0,100,0.6);
+}
+
+
+.seco-div-container{
+    border-radius: 40px;
+    background: linear-gradient(to bottom,white,rgb(52, 52, 171));
+    padding:20px;
+    color:rgb(164, 33, 33); 
+    font-weight: bold;
+    margin-top:20px;
+}
+
+.before-sec-div-container{
+    border-radius: 40px;
+    height:250px;
+    background: linear-gradient(to bottom,white,rgb(52, 52, 171));
+    padding:20px;
+    color:rgb(0,0,70);
+    font-weight: bold;   
+}
+
+
+.before-sec-div-container span{
+    width:100%;
+    float:left;
+}
+
+
+.before-sec-div-container  input{
+    padding:10px;
+    border-radius: 10px;
+}
+
+
+.before-sec-div-container input:focus{
+    outline:none;
+}
+
+
+
+.before-sec-div-container  select{
+    padding:10px;
+    border-radius: 10px;
+}
+
+
+.before-sec-div-container select:focus{
+    outline:none;
+}
+
+
+
+
+#masag{
+    background-color: rgba(0,0,0,0.8);
+    position:fixed;top:0px;left:0px;right:0px;
+    width:100%;
+    height:100%;
+    visibility: hidden;
+    z-index: 100;
+}
+
+.msg{
+    text-align: center;
+    position: absolute;
+    background-color: white;
+    width:40%;
+    height:300px;
+    margin:100px;
+    margin-left: 550px;
+    padding:50px;
+    border-radius: 10px;
+}
+
+.msg a{
+    text-decoration: none;
+    color: black;
+}
+
+#vis-con{
+    visibility: hidden;
+}
+
+
+#masag-con{
+    background-color: rgba(0,0,0,0.8);
+    position:fixed;top:0px;left:0px;right:0px;bottom:0px;
+    width:100%;
+    height:100%;
+    visibility: hidden;
+}
+
+
+.msgas{
+    text-align: center;
+    position: absolute;
+    overflow: auto;
+    background-color: white;
+    width:80%;
+    height:600px;
+    margin:100px;
+    margin-left: 150px;
+    padding:50px;
+    border-radius: 20px;
+}
+
+.msgas a{
+    text-decoration: none;
+    color: black;
+}
+
+.aj-btn{
+    padding:10px;
+    margin:20px;
+    border-radius: 10px;
+    width:20%;
+    cursor: pointer;
+}

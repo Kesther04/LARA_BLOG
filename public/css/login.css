@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: arial;
+}
+
+body{
+    margin:0;
+    width:100%;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    cursor: pointer;
+}
+
+.login-sec{
+    width:40%;
+    height:600px;
+    border-radius:60px;
+    background: rgb(0,0,50);
+    animation:log-load 300ms;    
+    margin:100px;
+}
+
+
+.msg-log{
+    width:100%;
+    color:red;
+    text-align: center;
+}
+
+.login-sec h1{
+    text-align: center;
+    padding:20px;
+    margin:10px;
+    color:rgb(164, 33, 33); 
+}
+
+.login-sec h1:hover{
+    color:rgb(164, 33, 33); 
+}
+
+.login-sec table{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.login-sec table tr td{
+    font-size: 20px;
+    margin:20px;
+    padding:20px;
+    color:rgb(164, 33, 33); 
+}
+
+.login-sec table tr td a{
+    color:rgb(164, 33, 33); 
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+.login-sec table tr td a:hover{
+    color:whitesmoke; 
+    text-decoration: underline;
+}
+
+.login-sec table tr td:hover{
+    color:whitesmoke; 
+}
+
+.login-sec table tr td input {
+    padding:15px;
+    border-radius: 15px;
+    width:300px;
+}
+
+.login-sec table tr td input:focus{
+    outline:none;
+}
+
+.btn-div{
+    width:100%;
+    padding:10px;
+    text-align: center;
+}
+
+.btn{
+    padding:15px;
+    width:200px;
+    color:whitesmoke; 
+    border-radius:30px;
+    background:rgba(0, 50, 100,0.4);
+    border:2px solid rgba(0,0,100,0.4);
+}
+
+.btn:hover{
+    background:rgba(0, 50, 100,0.6);
+    color:whitesmoke;
+    border:2px solid rgba(0,0,100,0.6);
+}
+
+.form-sec{
+    width:40%;
+    margin:100px;
+    height:720px;
+    border-radius:60px;
+    background: rgb(0,0,50);
+    animation:log-load 300ms;    
+}
+
+.form-sec h1{
+    text-align: center;
+    padding:20px;
+    margin:10px;
+    color:rgb(164, 33, 33); 
+}
+
+.form-sec h1:hover{
+    color:rgb(164, 33, 33); 
+}
+
+.form-sec table{
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+.form-sec table tr td{
+    font-size: 20px;
+    margin:20px;
+    padding:20px;
+    color:rgb(164, 33, 33); 
+}
+
+.form-sec table tr td a{
+    color:rgb(164, 33, 33); 
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+.form-sec table tr td a:hover{
+    color:rgb(164, 33, 33); 
+    text-decoration: underline;
+}
+
+.form-sec table tr td:hover{
+    color:whitesmoke;
+}
+
+.form-sec table tr td input {
+    padding:15px;
+    border-radius: 15px;
+    width:300px;
+}
+
+.form-sec table tr td input:focus{
+    outline:none;
+}
+
+
+.form-sec table tr td select {
+    padding:15px;
+    border-radius: 15px;
+    width:300px;
+}
+
+.form-sec table tr td select:focus{
+    outline:none;
+}
+
+
+#p-pass{
+    visibility: visible;
+}
+
+#tock{
+    display: block;
+    padding:1px;
+}
+#tock input{
+    width:60%;
+}
+#pock input{
+    width:60%;
+}
+
+#pock{
+    display:none;
+    padding:1px;
+}
+
+.change-pass{
+    font-size: 15px;
+    color:whitesmoke; 
+    border-radius:30px;
+    background:rgba(0, 50, 100,0.4);
+    border:2px solid rgba(0,0,100,0.4);
+    cursor: pointer;
+}
+
+.change-pass:hover{
+    background:rgba(0, 50, 100,0.6);
+    border:2px solid rgba(0,0,100,0.6);
+    color:whitesmoke;
+}
+
+
+.p-a-s{
+    display:block;
+    float:left;
+}
+
+#p-a-t{
+    display:none;
+}
+
+#aaa{
+    display: block;
+    width:30%;
+}
+
+#bbb{
+    display:none;
+    width:30%;
+}
+
+
+
+@keyframes log-load{
+    0%{
+        transform: scale(0);
+    }
+
+    90%{
+        transform: scale(1.1);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
