@@ -94,7 +94,7 @@
                 </form>
 
                 <div class='comment-div'>
-                    <video src="../../images/rrrty.mp4"  controls type="video/mp4"></video>
+                    
                     <?php
                         $comPt = Comment::where('post_id',$row['id'])->latest()->get();
                     ?>
