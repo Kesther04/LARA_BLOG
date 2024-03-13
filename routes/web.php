@@ -32,6 +32,7 @@ Route::get('/', function () {
 // });
 
 Route::get('/dashboard',function () {return redirect('/auth/login');});
+Route::get('/register',function(){return view('/auth/register');});
 Route::get('/auth/login',function(){return view('/auth/login');});
 
 //for User Authentication
